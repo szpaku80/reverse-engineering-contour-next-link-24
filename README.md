@@ -11,7 +11,10 @@ TOC
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
     *
-    	* [Renesas PD70F3769 microcontroller](#Renesas-PD70F3769-microcontroller)
+    * [Renesas PD70F3769 microcontroller](#Renesas-PD70F3769-microcontroller)
+    * [Unknown circuits](#Unknown_circuits)
+    * [Meter measuring system](#Meter measuring system)
+    
     	
     * [Back](#back)
   * [Reverse engineering](#Reverse-engineering)
