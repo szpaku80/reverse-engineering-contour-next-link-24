@@ -8,7 +8,7 @@ TOC
 ===
   * [Current Project Status](#current-project-status)
   * [What We Currently Know](#what-we-currently-know)
-  * [Hardware Overview, or what I have discovered](#hardware-overview,-or-what-I-have-discovered)
+  * [Hardware Overview, or what I have discovered](#hardware-overview-or-what-i-have-discovered)
     * [Front](#front)
     * [Back](#back)
   * [Reverse engineering](#Reverse-engineering)
