@@ -10,6 +10,7 @@ TOC
   * [What We Currently Know](#what-we-currently-know)
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
+    	* [microcontroller] (#Renesas-PD70F3769-microcontroller)
     * [Back](#back)
   * [Reverse engineering](#Reverse-engineering)
     * [Attempting to Dump the Firmware](#attempting-to-dump-the-firmware)
@@ -38,7 +39,7 @@ Hardware Overview, what I have discovered
 
 ## Front
 
-**Renesas PD70F3769 microcontroller
+**Renesas PD70F3769 microcontroller**
 
 ![Board Top/Front](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/board_top.jpg)
 
