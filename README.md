@@ -8,10 +8,10 @@ TOC
 ===
   * [Current Project Status](#current-project-status)
   * [What We Currently Know](#what-we-currently-know)
-  * [Hardware Overview](#hardware-overview)
+  * [Hardware Overview, or what I have discovered](#Hardware-Overview,-or-what-I-have-discovered)
     * [Front](#front)
     * [Back](#back)
-  * [Reversing](#reversing)
+  * [Reverse engineering](#Reverse-engineering)
     * [Attempting to Dump the Firmware](#attempting-to-dump-the-firmware)
 
 Current Project Status
@@ -41,8 +41,8 @@ Hardware Overview, or what I have discovered
 Nothing super interesting up front. Mostly just the BG Meter bits.
 
 
-Głównym układem scalonym jest mikrokontroler PD70F3769 firmy Renesas. Package: 100-pin plastic LQFP package. 
- Omawiany mikrokontroler posiada :
+The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
+ The discussed microcontroller has :
  * 512 KB flash memory
  * 40 KB RAM
  * 64 MB Logical space 
@@ -54,17 +54,17 @@ Głównym układem scalonym jest mikrokontroler PD70F3769 firmy Renesas. Package
  
 
 
-**Nieznane układy**
+**Unknown circuits**
 
-On the Top side , znajdują się jeszcze dwa nieznane układy scalone
+On the Top side, there are two more unknown ICs
  * 1?
  * 2?
-Ich funkcja jest jeszcze nieznana.
+Their function is yet unknown.
 ! ZDJĘCIE
 
-**układ pomiarowy glukometru**
+**meter measuring system**
 
-To prawdopodobnie układ wykożystywany do wykonania pomiaru glukozy z próbki na pasku pomiarowym. Możemy go pominąć gdyż nie bierze on udziału podczas łączenia się CNL z pompa.
+This is probably the system used to measure the glucose from the sample on the test strip. We can omit it because it is not involved in connecting the CNL with the pump.
 
 TOSHIBA
 T5DBO0
@@ -126,18 +126,17 @@ Positive and Negative overvoltage protection controller.
 
 Reverse engineering
 =========
-Mając dostęp do specjalistycznego sprzetu, odlutowałem układy PD70F3769 oraz CC2430. Wykonałem analizę połaczeń układów na płycie głównej. Udało mi się stwożyć schemat ideowy CNL.
-Na płycię głównej są umiejscowione test points. Większość udało mi się oznaczyć. Możemy wyróżnić piny szynę pamięci flash, połączenia między procesorem a radiem . Najważniejszym jest port debug.
-Za jego pomocą możemy połączyć się z jednostką sterującą PD70F3769. 
+Having access to specialized equipment, I desoldered the PD70F3769 and CC2430 chips. I analyzed the connections of the systems on the motherboard. I was able to create a CNL schematic diagram.
+On the motherboard are placed test points. I was able to tag most of them. We can distinguish pins: flash memory bus, connections between the processor and the radio. The most important is the debug port.
+With it we can connect to the PD70F3769 control unit.
 
 !zdjęcie
 
-Zamieszczam schemat oraz pliki bibloteki TinyCAD.
+I include the diagram and the TinyCAD library files.
 
-**co dalej do zrobienia**
+**what to do next**
 
-Mam nadzieję że ta dokumentacja posłuży dalej do odtwożenia 
-
+I hope that this documentation will be used further to develop a replacement device connecting the pump with the phone. This creates a wireless pump status data connector that can send information to Nightscout without a CNL connection via the USB port.
 
 
 
@@ -145,4 +144,6 @@ Mam nadzieję że ta dokumentacja posłuży dalej do odtwożenia
 
 
 ## Attempting to Dump the Firmware
+
+
 
