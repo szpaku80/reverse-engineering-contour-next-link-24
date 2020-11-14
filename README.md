@@ -58,8 +58,8 @@ The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 1
 **Unknown circuits**
 
 On the Top side, there are two more unknown ICs
- * 1?
- * 2?
+ * 1?  HSS 064 67
+ * 2?  17040 69A4X
  
 Their function is yet unknown.
 ! ZDJĘCIE
