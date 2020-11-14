@@ -61,6 +61,7 @@ The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 1
 On the Top side, there are two more unknown ICs
  * 1?
  * 2?
+ 
 Their function is yet unknown.
 ! ZDJĘCIE
 
@@ -85,12 +86,11 @@ T5DBO0
 
 **Ti SoC CC2430 ZigBee Radio**
 
-Na tej stronie znajduje się uład radiowy CC2430-F128. 
+On the this side has a radio chip CC2430-F128. 
 
-Jest to układ RF firmy texas instrument, RF transceiver with an industry-standard enhanced 8051 MCU, 128 KB flash memory, 8 KB RAM. 
-Z doświadczenia wiem, że 8051 nieobsługuje wszytkich standardowych funkcji, dlatego dobrze się wczytać dokumentację i erate.
-Chip jest ustawiany i programowany przy każdym uruchomieniu. Nie przechowuje w sobie kodu programu. Dlatego musimy się skupić na pamieci MX25L i mikrokontrolerze PD70F3769.
-
+It is a texas instrument RF chip, RF transceiver with an industry-standard enhanced 8051 MCU, 128 KB flash memory, 8 KB RAM.
+I know from experience that the 8051 does not support all standard functions, so it's good to read the documentation and erate.
+The chip is set up and programmed each time it is started. It does not store the program code. Therefore, we have to focus on the MX25L memory and the PD70F3769 microcontroller.
 
 
 http://www.ti.com/lit/ds/symlink/cc2430.pdf
@@ -102,7 +102,7 @@ CC2430-F128
 
 **Flash Memory**
  
- Mikrokontroler PD70F3769  współpracuje z pamięcią flash MX25L1606-8006E_DS_EN
+ The PD70F3769 microcontroller works with flash memory MX25L1606-8006E_DS_EN
  This is 16M-BIT CMOS SERIAL FLASH
 http://www.zlgmcu.com/mxic/pdf/NOR_Flash_c/MX25L1606-8006E_DS_EN.pdf
 
