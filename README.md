@@ -38,7 +38,7 @@ Hardware Overview, what I have discovered
 
 ## Front
 
-
+![Board Top/Front](https://github.com/applehat/contour-next-link-24-teardown/raw/master/board_top.jpg)
 
 The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
  The discussed microcontroller has :
@@ -77,7 +77,7 @@ T5DBO0
 
 ![Front](https://github.com/applehat/contour-next-link-24-teardown/raw/master/front.jpg)
 
-![Board Top/Front](https://github.com/applehat/contour-next-link-24-teardown/raw/master/board_top.jpg)
+
 
 
 
