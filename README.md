@@ -62,7 +62,7 @@ On the Top side, there are two more unknown ICs
 Their function is yet unknown.
 ! ZDJĘCIE
 
-**meter measuring system**
+**Meter measuring system**
 
 This is probably the system used to measure the glucose from the sample on the test strip. We can omit it because it is not involved in connecting the CNL with the pump.
 
@@ -134,7 +134,7 @@ With it we can connect to the PD70F3769 control unit.
 
 I include the diagram and the TinyCAD library files.
 
-**what to do next**
+**What to do next**
 
 I hope that this documentation will be used further to develop a replacement device connecting the pump with the phone. This creates a wireless pump status data connector that can send information to Nightscout without a CNL connection via the USB port.
 
