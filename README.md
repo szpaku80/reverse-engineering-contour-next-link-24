@@ -64,6 +64,7 @@ On the Top side, there are two more unknown ICs
  * 2?  17040 69A4X
  
 Their function is yet unknown.
+
 ![Unknown large](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Unknown_large.jpg)
 
 
@@ -107,25 +108,16 @@ CC2430-F128
  This is 16M-BIT CMOS SERIAL FLASH
 http://www.zlgmcu.com/mxic/pdf/NOR_Flash_c/MX25L1606-8006E_DS_EN.pdf
 
-!ZDJĘCIE
+
 
 
 **Układ NCP372**
+
 Positive and Negative overvoltage protection controller.  
 
-
-!zdjęcie
-
+![NCP372](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/NCP372.jpg)
 
 
-
-![Back](https://github.com/applehat/contour-next-link-24-teardown/raw/master/back.jpg)
-
-![Back Naked](https://github.com/applehat/contour-next-link-24-teardown/raw/master/back-without-lipo-or-shielding.jpg)
-
-![Board Bottom/Back](https://github.com/applehat/contour-next-link-24-teardown/raw/master/board_bottom.jpg)
-
-![Debug Pins](https://github.com/applehat/contour-next-link-24-teardown/raw/master/debug-pins.jpg)
 
 Reverse engineering
 =========
@@ -133,7 +125,11 @@ Having access to specialized equipment, I desoldered the PD70F3769 and CC2430 ch
 On the motherboard are placed test points. I was able to tag most of them. We can distinguish pins: flash memory bus, connections between the processor and the radio. The most important is the debug port.
 With it we can connect to the PD70F3769 control unit.
 
-!zdjęcie
+![Reverse top](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Reverse_top.jpg)
+
+![Reverse back](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Reverse_back.jpg)
+
+
 
 I include the diagram and the TinyCAD library files.
 
