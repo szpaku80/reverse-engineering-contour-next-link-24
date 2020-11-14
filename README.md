@@ -10,13 +10,11 @@ TOC
   * [What We Currently Know](#what-we-currently-know)
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
-    *
     * [Renesas PD70F3769 microcontroller](#renesas-PD70F3769-microcontroller)
     * [Unknown circuits](#unknown-circuits)
     * [Meter measuring system](#meter-measuring-system)
-    
-    	
     * [Back](#back)
+    
   * [Reverse engineering](#Reverse-engineering)
     * [Attempting to Dump the Firmware](#attempting-to-dump-the-firmware)
 
