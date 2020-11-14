@@ -38,7 +38,7 @@ Hardware Overview, what I have discovered
 
 ## Front
 
-![Board Top/Front](https://github.com/applehat/contour-next-link-24-teardown/raw/master/board_top.jpg)
+![Board Top/Front](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/board_top.jpg)
 
 The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
  The discussed microcontroller has :
@@ -64,7 +64,8 @@ On the Top side, there are two more unknown ICs
  * 2?  17040 69A4X
  
 Their function is yet unknown.
-! ZDJĘCIE
+![Unknown large](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Unknown_large.jpg)
+
 
 **Meter measuring system**
 
