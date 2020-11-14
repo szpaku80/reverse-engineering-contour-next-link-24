@@ -38,6 +38,8 @@ Hardware Overview, what I have discovered
 
 ## Front
 
+**Renesas PD70F3769 microcontroller
+
 ![Board Top/Front](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/board_top.jpg)
 
 The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
