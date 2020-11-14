@@ -38,7 +38,6 @@ Hardware Overview, what I have discovered
 
 ## Front
 
-Nothing super interesting up front. Mostly just the BG Meter bits.
 
 
 The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
