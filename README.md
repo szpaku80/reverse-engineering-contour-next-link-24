@@ -69,6 +69,9 @@ Their function is yet unknown.
 
 **Meter measuring system**
 
+![Meter](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/main/board_meter.jpg)
+
+
 This is probably the system used to measure the glucose from the sample on the test strip. We can omit it because it is not involved in connecting the CNL with the pump.
 
 TOSHIBA
@@ -78,15 +81,11 @@ T5DBO0
 
 
 
-![Front](https://github.com/applehat/contour-next-link-24-teardown/raw/master/front.jpg)
-
-
-
-
-
 ## Back side
 
 **Ti SoC CC2430 ZigBee Radio**
+
+
 
 On the this side has a radio chip CC2430-F128. 
 
