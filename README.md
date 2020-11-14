@@ -2,7 +2,7 @@
 
 [![Gitter chat](https://badges.gitter.im/medtronic-flash/Lobby.png)](https://gitter.im/medtronic-flash/Lobby)
 
-This repository is part of a reverse engineering project to understand the communication process between Medtronic 630G / 640G / 670G pumps and Contour Next Link 2.4 blood glucose meter and Medtronic compatible equipment. It includes my analysis of CNL connections and test point leads. This knowledge, combined with Pazaan's past achievements, should drive the project forward.
+This repository is part of a reverse engineering project to understand the communication process between Medtronic 630G / 640G / 670G pumps and Contour Next Link 2.4 blood glucose meter and Medtronic compatible equipment. It includes my analysis of CNL connections and test point leads. This knowledge, combined with Pazaan and Bal00 past achievements, should drive the project forward.
 
 TOC
 ===
