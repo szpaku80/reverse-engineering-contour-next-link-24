@@ -10,6 +10,7 @@ TOC
   * [What We Currently Know](#what-we-currently-know)
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
+    *
     	* [Renesas PD70F3769 microcontroller](#Renesas-PD70F3769-microcontroller)
     	
     * [Back](#back)
