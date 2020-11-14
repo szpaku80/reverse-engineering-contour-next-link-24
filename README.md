@@ -43,13 +43,13 @@ Nothing super interesting up front. Mostly just the BG Meter bits.
 
 The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
  The discussed microcontroller has :
- |  Renesas PD70F3769 microcontroller  |
- |-------------------- |
- | flash memory512 KB    | 512 KB |
- | RAM                   | 40 KB  |
- | Logical space         | 64 MB  |
- | External memory area  | 13 MB  |
- | Max. frequency        | 20 MHz |
+ | Renesas microcontroller |PD70F3769 |
+ |-------------------- |------------- |
+ | flash memory512 KB    | 512 KB     |
+ | RAM                   | 40 KB      |
+ | Logical space         | 64 MB      |
+ | External memory area  | 13 MB      |
+ | Max. frequency        | 20 MHz     |
  
  https://www.renesas.com/us/en/doc/products/mpumcu/doc/v850/r01uh0001ej0400_v850esjx3l.pdf
  
