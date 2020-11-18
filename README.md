@@ -137,11 +137,15 @@ With it we can connect to the PD70F3769 control unit.
 
 ![Reverse back](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Reverse_back.jpg)
 
+Testpoins numbers are the pin numbers of the respective components. (e.g. 46 - CC2430 is a pin 46 of the RF CC2430 pin )
+
+
 ![Reverse test pins](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/m_CNL_PCB_test_pins.jpg)
 
 ![Reverse schemat](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/CNL_2.4%20_M.png)
 
 I include the diagram and the TinyCAD library files.
+https://sourceforge.net/projects/tinycad/
 
 **What to do next**
 
