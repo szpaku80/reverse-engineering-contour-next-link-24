@@ -18,7 +18,7 @@ TOC
     * [Flash Memory]
     * [Protection controller]
   * [Reverse engineering](#Reverse-engineering)
-    * [Attempting to Dump the Firmware](#attempting-to-dump-the-firmware)
+    
 
 Current Project Status
 ======================
