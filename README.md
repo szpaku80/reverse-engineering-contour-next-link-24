@@ -137,6 +137,8 @@ With it we can connect to the PD70F3769 control unit.
 
 
 
+![Reverse schemat](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/CNL_2.4%20_M.png)
+
 I include the diagram and the TinyCAD library files.
 
 **What to do next**
