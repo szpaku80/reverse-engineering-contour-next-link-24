@@ -10,11 +10,13 @@ TOC
   * [What We Currently Know](#what-we-currently-know)
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
-    * [Renesas PD70F3769 microcontroller]
-    * [Unknown circuits](#unknown-circuits)
-    * [Meter measuring system](#meter-measuring-system)
+    * [Renesas microcontroller]
+    * [Unknown circuits]
+    * [Meter measuring system]
     * [Back](#back)
-    
+    * [Ti SoC ZigBee Radio]
+    * [Flash Memory]
+    * [Protection controller]
   * [Reverse engineering](#Reverse-engineering)
     * [Attempting to Dump the Firmware](#attempting-to-dump-the-firmware)
 
@@ -117,7 +119,7 @@ http://www.zlgmcu.com/mxic/pdf/NOR_Flash_c/MX25L1606-8006E_DS_EN.pdf
 
 
 
-**Układ NCP372**
+**Controller NCP372**
 
 Positive and Negative overvoltage protection controller.  
 
