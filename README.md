@@ -10,7 +10,7 @@ TOC
   * [What We Currently Know](#what-we-currently-know)
   * [Hardware Overview, what I have discovered](#hardware-overview-what-i-have-discovered)
     * [Front](#front)
-    * [Renesas PD70F3769 microcontroller](#renesas-PD70F3769-microcontroller)
+    * [Renesas PD70F3769 microcontroller]
     * [Unknown circuits](#unknown-circuits)
     * [Meter measuring system](#meter-measuring-system)
     * [Back](#back)
@@ -135,7 +135,7 @@ With it we can connect to the PD70F3769 control unit.
 
 ![Reverse back](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Reverse_back.jpg)
 
-
+![Reverse test pins](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/m_CNL_PCB_test_pins.jpg)
 
 ![Reverse schemat](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/CNL_2.4%20_M.png)
 
@@ -146,11 +146,6 @@ I include the diagram and the TinyCAD library files.
 I hope that this documentation will be used further to develop a replacement device connecting the pump with the phone. This creates a wireless pump status data connector that can send information to Nightscout without a CNL connection via the USB port.
 
 
-
-
-
-
-## Attempting to Dump the Firmware
 
 
 
