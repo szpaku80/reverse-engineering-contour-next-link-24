@@ -147,7 +147,8 @@ I include the diagram and the TinyCAD library files.
 
 I hope that this documentation will be used further to develop a replacement device connecting the pump with the phone. This creates a wireless pump status data connector that can send information to Nightscout without a CNL connection via the USB port.
 
-
+The repository was established on the basis of previous publications Bal00 https://github.com/Bal00/reversing-contour-next-link-24 ,  https://github.com/pazaan/decoding-contour-next-link 
+#wearenotwaiting 
 
 
 
