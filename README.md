@@ -68,8 +68,8 @@ The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 1
 ![Unknown circuits](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Unknown.jpg)
 
 On the Top side, there are two more unknown ICs
- * 1?  HSS 064 67
- * 2?  17040 69A4X
+ * 1?  HSS 064 67  or  S7T S57 44
+ * 2?  17040 69A4X  or 17040 3AA41
  
 Their function is yet unknown.
 
