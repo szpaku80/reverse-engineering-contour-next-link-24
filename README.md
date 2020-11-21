@@ -67,9 +67,11 @@ The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 1
 
 ![Unknown circuits](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Unknown.jpg)
 
-On the Top side, there are two more unknown ICs
+On the Top side, there are one  unknown ICs
  * 1?  HSS 064 67  or  S7T S57 44
- * 2?  17040 69A4X  or 17040 3AA41
+ 
+ 
+ * 2?  The second chip was recognized as MAX 17040. Thanks to the @ecc1. It is a battery cell level indicator circuit.
  
 Their function is yet unknown.
 
