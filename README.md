@@ -44,13 +44,13 @@ Hardware Overview, what I have discovered
 
 ## Front
 
-**Renesas PD70F3769 microcontroller**
+**Renesas PD70F3796 microcontroller**
 
 ![Board Top/Front](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/board_top.jpg)
 
-The main integrated circuit is the Renesas PD70F3769 microcontroller. Package: 100-pin plastic LQFP package.
+The main integrated circuit is the Renesas PD70F3796 microcontroller. Package: 100-pin plastic LQFP package.
  The discussed microcontroller has :
- | Renesas microcontroller |PD70F3769 |
+ | Renesas microcontroller |PD70F3796 |
  |-------------------- |------------- |
  | flash memory512 KB    | 512 KB     |
  | RAM                   | 40 KB      |
@@ -132,7 +132,7 @@ Reverse engineering
 =========
 Having access to specialized equipment, I desoldered the PD70F3769 and CC2430 chips. I analyzed the connections of the systems on the motherboard. I was able to create a CNL schematic diagram.
 On the motherboard are placed test points. I was able to tag most of them. We can distinguish pins: flash memory bus, connections between the processor and the radio. The most important is the debug port.
-With it we can connect to the PD70F3769 control unit.
+With it we can connect to the PD70F3796 control unit.
 
 ![Reverse top](https://github.com/szpaku80/reverse-engineering-contour-next-link-24/blob/main/Reverse_top.jpg)
 
